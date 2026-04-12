@@ -1,0 +1,122 @@
+/* sm */
+@media screen and (min-width: 640px) {
+  /* START home */
+  #home button {
+    width: fit-content;
+  }
+  #home .hero-img {
+    height: 300px;
+  }
+  /* END home */
+
+  .section-style-leader h2 {
+    font-size: 34px;
+  }
+  /* START OUR GAMES */
+
+  /* END OUR GAMES */
+
+  /* START What We Do */
+  #what-we-do .header p {
+    font-size: 26px;
+  }
+
+  #what-we-do .p-card {
+    font-size: 20px;
+  }
+  /* END What We Do */
+
+  /* END What We Do */
+
+  /* START  CONTACT US */
+  #contact-us .header p {
+    color: var(--second-color);
+    font-size: 16px;
+  }
+
+  #contact-us .cardd,
+  .form-holder {
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+
+  /* END  CONTACT US */
+}
+
+/* md */
+@media screen and (min-width: 768px) {
+  .section-style-leader h2 {
+    font-size: 48px;
+  }
+
+  /* START OUR GAMES */
+  #our-games .btn-custom {
+    width: 50%;
+  }
+  /* END OUR GAMES */
+  /* START What We Do */
+  #what-we-do .header p {
+    font-size: 36px;
+  }
+  /* END What We Do */
+
+  /* START  OUR TEAM */
+  #our-team p {
+    font-size: 18px;
+  }
+
+  /* END  OUR TEAM */
+}
+
+/* large */
+@media screen and (min-width: 992px) {
+  /* START NAV */
+  nav ul {
+    border: 0;
+  }
+  /* END NAV */
+  /* START home */
+  #home {
+    height: 100vh;
+    padding: 200px 0 64px 0;
+  }
+  #home h1 {
+    font-size: 60px;
+  }
+  #home .hero-img {
+    width: 45%;
+    margin-top: 0;
+    height: 400px;
+  }
+
+  /* END home */
+
+  /* START OUR GAMES */
+  #our-games .btn-custom {
+    width: 25%;
+  }
+  /* END OUR GAMES */
+
+  .caro-bg::before {
+    top: -50px;
+    bottom: -50px;
+    left: 0px;
+    right: 0px;
+  }
+
+  /* START  CONTACT US */
+  #contact-us .cardd,
+  .form-holder {
+    padding: 32px;
+    margin-bottom: 32px;
+  }
+  /* END  CONTACT US */
+}
+
+/* Xl */
+@media screen and (min-width: 1280px) {
+}
+
+/* XXL */
+@media screen and (min-width: 1636px) {
+}
